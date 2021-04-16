@@ -7,10 +7,10 @@ matrix = [ ['0', '1', '2','3','4'],
    ['k', 'l', 'm','n','o'  ],
    ]
    
-for i in range(len(matrix)) :  
-	for j in range(len(matrix[i])) :  
-		print(matrix[i][j], end=" ") 
-	print()   
+#for i in range(len(matrix)) :  
+#	for j in range(len(matrix[i])) :  
+#		print(matrix[i][j], end=" ") 
+#	print()   
 
 print("\n MATRIX CODES\n")
 rowkey = [-1,-2,-3,-4,-5]
@@ -34,8 +34,8 @@ for n in range (0,5):
 	rowchr[n] = matrix[n][rowkey[n]]
 	print("ROW = "+str(n+1)+" KEY = "+str(rowkey[n]+1)) 
 	
-print("ROW CODE DEBUG ")
-print(rowchr)
+#print("ROW CODE DEBUG ")
+#print(rowchr)
 
 inkey = ['*','*','*','*','*']
 correctinputs = 0
