@@ -23,7 +23,7 @@ while(done==False):
 	mx = random.randint(0,1000)
 	if(mn<mx):
 		done=True
-	md = int((mx - mn)/2)
+	md = int((mx + mn)/2)
 #end while(done==False):
 
 while(count <= iterations-1):
